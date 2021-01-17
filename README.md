@@ -20,10 +20,10 @@
 ## Code Examples
 
 ## Status
-Mixed Messages is: still to be upgraded
+Mixed Messages is still to be upgraded
 
 ## Inspiration
-Mixed messages inspired by the codecademy project of the samename
+Mixed messages is inspired by the codecademy project that holds the same name
 
 ## Contact
 Created by Diego Torres @DSevenT - feel free to contact me! diego.imt7@gmail.com
