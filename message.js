@@ -7,16 +7,22 @@ const messageMaterial = {
 }
 
 const messageGenerator = (materials) => { // fucntion that generates the messages
-    let message; 
-    message = materials.superHeroNames[Math.floor(Math.random()*materials.superHeroNames.length)];
-    if(message == 'Hulk: '){
-        message += 'Hulk smaaaash!';
+    let message = ''; 
+    for(const key in materials)
+    {
+        message += materials[key][Math.floor(Math.random()*materials[key].length)];
+        if(message == 'Hulk: '){
+            message += 'Hulk smaaaash!';
+            break;
+        }
     }
-    else {
-        message += materials.commonQuotesStarters[Math.floor(Math.random()*materials.commonQuotesStarters.length)];
-        message += materials.commonTopics[Math.floor(Math.random()*materials.commonTopics.length)];
-        message += materials.mainMessage[Math.floor(Math.random()*materials.mainMessage.length)];
-    }
+
+    //Alternative solution:
+    //message = materials.superHeroNames[Math.floor(Math.random()*materials.superHeroNames.length)];   
+    //else {    
+    //    message += materials.commonTopics[Math.floor(Math.random()*materials.commonTopics.length)];
+    //    message += materials.mainMessage[Math.floor(Math.random()*materials.mainMessage.length)];
+    //}
     return message;
 }
 

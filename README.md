@@ -20,7 +20,7 @@
 ## Code Examples
 
 ## Status
-Mixed Messages is: finished
+Mixed Messages is: still to be upgraded
 
 ## Inspiration
 Mixed messages inspired by the codecademy project of the samename
