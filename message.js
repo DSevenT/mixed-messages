@@ -11,7 +11,7 @@ const messageGenerator = (materials) => { // fucntion that generates the message
     for(const key in materials)
     {
         message += materials[key][Math.floor(Math.random()*materials[key].length)];
-        if(message == 'Hulk: '){
+        if(message === 'Hulk: '){
             message += 'Hulk smaaaash!';
             break;
         }
